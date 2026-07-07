@@ -28,3 +28,8 @@
 **Correct direction:** use long long for summation
 
 
+### [[A_Next_Round]] - [CodeForces]
+**Date:** 06-07-2026
+**What I tried:** I tried to brute force a index without checking the bounds. `1< n < 50` but I assumed it started with 0
+**Why it failed:** Tried accessing out of bound index with vector so it threw a runtime error
+**Correct direction:** Check the bounds. the number range.
