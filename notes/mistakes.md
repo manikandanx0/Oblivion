@@ -33,3 +33,10 @@
 **What I tried:** I tried to brute force a index without checking the bounds. `1< n < 50` but I assumed it started with 0
 **Why it failed:** Tried accessing out of bound index with vector so it threw a runtime error
 **Correct direction:** Check the bounds. the number range.
+
+
+### [[Greater_Average]] - [CodeChef]
+**Date:** 13-07-2026
+**What I tried:** Integer to float division like `float C = (A+B)/2;`
+**Why it failed:** Even in a float variable the integer value division performed so it rounded up or down giving inaccurate value according to the problem.
+**Correct direction:** Explicit Type conversion /  Take input as float / use decimal point on divisor
